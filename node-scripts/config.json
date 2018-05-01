@@ -3,7 +3,7 @@
    "port":"4000",
    "jwt_expiretime": "36000",
    "channelName":"mychannel",
-   "CC_SRC_PATH":"../fabcc-couch-tests",
+   "CC_SRC_PATH":"couch_agg_cc",
    "eventWaitTime":"30000",
    "admins":[
       {

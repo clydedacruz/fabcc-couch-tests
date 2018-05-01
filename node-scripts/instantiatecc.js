@@ -26,4 +26,5 @@ async function instantiateChaincode(){
     console.log(message);
 }
 
-installChaincode();
+// installChaincode();
+instantiateChaincode();

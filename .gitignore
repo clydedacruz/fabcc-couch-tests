@@ -1,3 +1,5 @@
 node-scripts/fabric-client-kv-org1
 node-scripts/fabric-client-kv-org2
+node-scripts/fabric-client-crypto-org1/
+node-scripts/fabric-client-crypto-org2/
 node-scripts/node_modules
