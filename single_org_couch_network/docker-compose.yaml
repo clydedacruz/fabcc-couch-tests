@@ -124,6 +124,7 @@ services:
         - ./channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/:/etc/hyperledger/crypto/peer
     depends_on:
       - orderer.example.com
+      - couchdb_o1_p0
 
   # peer1.org1.example.com:
   #   container_name: peer1.org1.example.com
@@ -166,6 +167,7 @@ services:
         - ./channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/:/etc/hyperledger/crypto/peer
     depends_on:
       - orderer.example.com
+      - couchdb_o2_p0
 
   # peer1.org2.example.com:
   #   container_name: peer1.org2.example.com
